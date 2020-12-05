@@ -3,7 +3,12 @@
 </template>
 
 <script lang="ts">
-export default {
-    layout: 'blog'
-}
+import Vue from 'vue'
+export default Vue.extend({
+  data() {
+    return {
+      error: 11,
+    }
+  },
+})
 </script>
