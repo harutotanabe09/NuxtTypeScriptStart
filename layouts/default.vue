@@ -1,5 +1,6 @@
 <template>
   <div>
+    <label>bb</label>
     <Nuxt />
   </div>
 </template>
