@@ -3,13 +3,13 @@
 </template>
 
 <script>
-  export default {
-    // page properties go here
-  }
+export default {
+  // page properties go here
+}
 </script>
 
 <style>
-  .red {
-    color: red;
-  }
+.red {
+  color: red;
+}
 </style>
