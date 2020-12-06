@@ -10,6 +10,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
+// TODO TSを使うように調整
 interface Skill {
   name: string
   age: string
