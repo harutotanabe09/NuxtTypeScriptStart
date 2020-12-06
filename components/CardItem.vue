@@ -1,5 +1,5 @@
 <template>
-  <thead>
+  <thead class="index">
     <tr>
       <th>技術</th>
       <th>経験年数</th>
@@ -30,13 +30,18 @@ export default Vue.extend({
 })
 </script>
 <!--style lang="scss" scoped-->
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+<style lang="scss" scoped>
+.index {
+  > .row {
+    display: flex;
+    border-bottom: solid 2px gray;
+    padding: 10px 0;
+    > .date_published {
+      width: 30%;
+    }
+    > .title {
+      width: 30%;
+    }
+  }
 }
 </style>
